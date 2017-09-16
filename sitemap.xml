@@ -37,7 +37,7 @@
   </url>
   
   <url>
-    <loc>http://hiproxy.org/api/index.html</loc>
+    <loc>http://hiproxy.org/2014-07-13-test/</loc>
     
     <lastmod>2017-09-15T13:21:42.000Z</lastmod>
     
@@ -170,14 +170,7 @@
   </url>
   
   <url>
-    <loc>http://hiproxy.org/2014-07-13-test/</loc>
-    
-    <lastmod>2017-09-15T13:21:42.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://hiproxy.org/zh-cn/api/events.html</loc>
+    <loc>http://hiproxy.org/api/index.html</loc>
     
     <lastmod>2017-09-15T13:21:42.000Z</lastmod>
     
@@ -191,7 +184,21 @@
   </url>
   
   <url>
+    <loc>http://hiproxy.org/zh-cn/api/events.html</loc>
+    
+    <lastmod>2017-09-15T13:21:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://hiproxy.org/configuration/hosts.html</loc>
+    
+    <lastmod>2017-09-15T13:21:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://hiproxy.org/zh-cn/configuration/rewrite.html</loc>
     
     <lastmod>2017-09-15T13:21:42.000Z</lastmod>
     
@@ -206,13 +213,6 @@
   
   <url>
     <loc>http://hiproxy.org/zh-cn/configuration/index.html</loc>
-    
-    <lastmod>2017-09-15T13:21:42.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://hiproxy.org/zh-cn/configuration/rewrite.html</loc>
     
     <lastmod>2017-09-15T13:21:42.000Z</lastmod>
     
