@@ -31,8 +31,7 @@
   <link rel="stylesheet" href="/css/navy.css">
   <!-- endbuild -->
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="hiproxy">
   <!-- Google Analytics -->
@@ -59,12 +58,6 @@
     <nav id="main-nav">
       <a href="/zh-cn/" class="main-nav-link">首页</a><a href="/zh-cn/get_started/" class="main-nav-link">快速开始</a><a href="/zh-cn/configuration/" class="main-nav-link">配置</a><a href="/zh-cn/rewrite/" class="main-nav-link">Rewrite</a><a href="/zh-cn/developers/" class="main-nav-link">开发者</a><a href="/zh-cn/api/" class="main-nav-link">API</a><a href="/zh-cn/faqs/" class="main-nav-link">常见问题</a>
       <a href="https://github.com/hiproxy/hiproxy" class="main-nav-link"><i class="fa fa-github-alt"></i></a>
-      <div id="search-input-wrap">
-        <div id="search-input-icon">
-          <i class="fa fa-search"></i>
-        </div>
-        <input type="search" id="search-input" placeholder="Search...">
-      </div>
     </nav>
     <div id="lang-select-wrap">
       <label id="lang-select-label"><i class="fa fa-globe"></i><span>简体中文</span></label>
@@ -106,7 +99,7 @@
 <div id="content-wrap">
   <div class="wrapper">
     <div class="inner">
-      <ul id="intro-feature-list"><li class="intro-feature-wrap"><div class="intro-feature"><div class="intro-feature-icon"><i class="fa fa-bolt"></i></div><h3 class="intro-feature-title">轻量可扩展</h3><p class="intro-feature-desc">hiproxy是一个轻量级的代理工具，依赖的库比较少，安装快速，开发者可以对hiproxy进行扩展，支持扩展命令、指令和页面。</p></div></li><li class="intro-feature-wrap"><div class="intro-feature"><div class="intro-feature-icon"><i class="fa fa-pencil"></i></div><h3 class="intro-feature-title">复用现有开发习惯</h3><p class="intro-feature-desc">采用hosts和Nginx风格的配置，最大程度复用之前的开发、配置习惯。学习成本低，使用起来更加轻松。</p></div></li><li class="intro-feature-wrap"><div class="intro-feature"><div class="intro-feature-icon"><i class="fa fa-cloud-upload"></i></div><h3 class="intro-feature-title">HTTPS证书自动生成与管理</h3><p class="intro-feature-desc">hiproxy可以扮演CA角色，生成根证书。并且能自动根据每次请求的域名信息，生成相对应的域名证书。</p></div></li><li class="intro-feature-wrap"><div class="intro-feature"><div class="intro-feature-icon"><i class="fa fa-cog"></i></div><h3 class="intro-feature-title">跟浏览器高度融合</h3><p class="intro-feature-desc">hiproxy在启动服务的时候，可以贴心地打开一个新的浏览器窗口并自动配置好代理，省去了用户自己设置代理的步骤。</p></div></li></ul>
+      <ul id="intro-feature-list"><li class="intro-feature-wrap"><div class="intro-feature"><div class="intro-feature-icon"><i class="fa fa-bolt"></i></div><h3 class="intro-feature-title">轻量可扩展</h3><p class="intro-feature-desc">hiproxy是一个轻量级的代理工具，依赖的库比较少，安装快速，开发者可以对hiproxy进行扩展，支持扩展命令、指令和页面。</p></div></li><li class="intro-feature-wrap"><div class="intro-feature"><div class="intro-feature-icon"><i class="fa fa-cog"></i></div><h3 class="intro-feature-title">复用现有开发习惯</h3><p class="intro-feature-desc">采用hosts和Nginx风格的配置，最大程度复用之前的开发、配置习惯。学习成本低，使用起来更加轻松。</p></div></li><li class="intro-feature-wrap"><div class="intro-feature"><div class="intro-feature-icon"><i class="fa fa-lock"></i></div><h3 class="intro-feature-title">HTTPS证书自动生成与管理</h3><p class="intro-feature-desc">hiproxy可以扮演CA角色，生成根证书。并且能自动根据每次请求的域名信息，生成相对应的域名证书。</p></div></li><li class="intro-feature-wrap"><div class="intro-feature"><div class="intro-feature-icon"><i class="fa fa-chrome"></i></div><h3 class="intro-feature-title">跟浏览器高度融合</h3><p class="intro-feature-desc">hiproxy在启动服务的时候，可以贴心地打开一个新的浏览器窗口并自动配置好代理，省去了用户自己设置代理的步骤。</p></div></li></ul>
       <ul id="intro-cmd-wrap">
         <li class="intro-cmd-item">npm install hiproxy -g</li>
         <li class="intro-cmd-item">hiproxy init</li>
@@ -160,9 +153,6 @@
 <script src="/js/toc.js"></script>
 <script src="/js/mobile_nav.js"></script>
 <!-- endbuild -->
-
-<!-- Algolia -->
-
 
 </body>
 </html>

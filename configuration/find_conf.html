@@ -31,8 +31,7 @@
   <link rel="stylesheet" href="/css/navy.css">
   <!-- endbuild -->
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- RSS -->
   <link rel="alternate" href="/atom.xml" title="hiproxy">
   <!-- Google Analytics -->
@@ -59,12 +58,6 @@
     <nav id="main-nav">
       <a href="/" class="main-nav-link">Home</a><a href="/get_started/" class="main-nav-link">Get Started</a><a href="/configuration/" class="main-nav-link">Configuration</a><a href="/rewrite/" class="main-nav-link">Rewrite</a><a href="/api/" class="main-nav-link">API</a><a href="/developers/" class="main-nav-link">Developers</a><a href="/faqs/" class="main-nav-link">FAQs</a>
       <a href="https://github.com/hiproxy/hiproxy" class="main-nav-link"><i class="fa fa-github-alt"></i></a>
-      <div id="search-input-wrap">
-        <div id="search-input-icon">
-          <i class="fa fa-search"></i>
-        </div>
-        <input type="search" id="search-input" placeholder="Search...">
-      </div>
     </nav>
     <div id="lang-select-wrap">
       <label id="lang-select-label"><i class="fa fa-globe"></i><span>English</span></label>
@@ -93,14 +86,14 @@
             <div class="inner">
               <header class="article-header">
                 <h1 class="article-title" itemprop="name">Find Config file</h1>
-                <a href="https://github.com/hexojs/site/edit/master/source/configuration/find_conf.md" class="article-edit-link" title="Improve this doc"><i class="fa fa-pencil"></i></a>
+                <a href="https://github.com/hiproxy/documentation/edit/master/source/configuration/find_conf.md" class="article-edit-link" target="_blank" title="Improve this doc"><i class="fa fa-pencil"></i></a>
               </header>
               <div class="article-content" itemprop="articleBody">
                 <blockquote>
 <p>如果你愿意帮助hiproxy编写文档，请联系zdying@live.com, 谢谢！</p>
 <p>If you are willing to help hiproxy to write documentation, please contact zdying@live.com, thank you!</p>
 </blockquote>
-<p>如果是遵循的理念的存放配置文件（包括配置文件的文件名），当hiproxy的启动时，能够自动查找项目的配置文件，不需要手动指定配置文件。</p>
+<p>如果是遵循<a href="../get_started/#Concept">hiproxy的理念</a>的存放配置文件（包括配置文件的文件名），当hiproxy的启动时，能够自动查找项目的配置文件，不需要手动指定配置文件。</p>
 <p>如果没有遵循，把配置文件存放在其他路径或者不是使用默认的文件名称（hosts文件默认文件名称为<code>hosts</code>，rewrite文件默认的文件名称为<code>rewrite</code>），需要在启动的时候，手动指定配置文件名称。</p>
 <h2 id="指定配置文件" class="article-heading"><a href="#指定配置文件" class="headerlink" title="指定配置文件"></a>指定配置文件<a class="article-anchor" href="#指定配置文件" aria-hidden="true"></a></h2><p>要指定配置文件名称，可以使用选项<code>-c, --hosts-file &lt;files&gt;</code>和<code>-r, --rewrite-file &lt;files&gt;</code>。</p>
 <p><code>-c, --hosts-file &lt;files&gt;</code>用来指定hosts的文件路径，多个文件使用<code>,</code>分隔。</p>
@@ -170,7 +163,7 @@
 
               </div>
               <footer class="article-footer">
-                <time class="article-footer-updated" datetime="2017-09-15T13:21:42.000Z" itemprop="dateModified">Last updated: 2017-09-15</time>
+                <time class="article-footer-updated" datetime="2017-09-16T04:30:56.000Z" itemprop="dateModified">Last updated: 2017-09-16</time>
                 
               </footer>
               
@@ -188,7 +181,7 @@
       </article>
       <aside id="sidebar" role="navigation">
   <div class="inner">
-    <strong class="sidebar-title">Configuration</strong><a href="find_conf.html" class="sidebar-link current">Configuration file lookup</a><a href="hosts.html" class="sidebar-link current">hosts</a><a href="rewrite.html" class="sidebar-link current">rewrite</a><a href="ssl_certificate.html" class="sidebar-link current">SSL/TLS Certificate</a>
+    <strong class="sidebar-title">Configuration</strong><a href="find_conf.html" class="sidebar-link current">Configuration file lookup</a><a href="hosts.html" class="sidebar-link">hosts</a><a href="rewrite.html" class="sidebar-link">rewrite</a><a href="ssl_certificate.html" class="sidebar-link">SSL/TLS Certificate</a>
   </div>
 </aside>
     </div>
@@ -219,7 +212,7 @@
       </li>
     </ul>
     
-      <strong class="mobile-nav-title">Configuration</strong><a href="find_conf.html" class="mobile-nav-link current">Configuration file lookup</a><a href="hosts.html" class="mobile-nav-link current">hosts</a><a href="rewrite.html" class="mobile-nav-link current">rewrite</a><a href="ssl_certificate.html" class="mobile-nav-link current">SSL/TLS Certificate</a>
+      <strong class="mobile-nav-title">Configuration</strong><a href="find_conf.html" class="mobile-nav-link current">Configuration file lookup</a><a href="hosts.html" class="mobile-nav-link">hosts</a><a href="rewrite.html" class="mobile-nav-link">rewrite</a><a href="ssl_certificate.html" class="mobile-nav-link">SSL/TLS Certificate</a>
     
   </div>
   <div id="mobile-lang-select-wrap">
@@ -239,9 +232,6 @@
 <script src="/js/toc.js"></script>
 <script src="/js/mobile_nav.js"></script>
 <!-- endbuild -->
-
-<!-- Algolia -->
-
 
 </body>
 </html>

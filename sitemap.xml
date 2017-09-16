@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://hiproxy.org/configuration/find_conf.html</loc>
+    
+    <lastmod>2017-09-16T04:30:56.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://hiproxy.org/zh-cn/configuration/find_conf.html</loc>
+    
+    <lastmod>2017-09-16T04:30:46.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://hiproxy.org/zh-cn/index.html</loc>
+    
+    <lastmod>2017-09-16T04:26:44.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://hiproxy.org/index.html</loc>
+    
+    <lastmod>2017-09-16T04:25:46.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://hiproxy.org/rewrite/scope.html</loc>
     
     <lastmod>2017-09-15T13:21:42.000Z</lastmod>
@@ -9,35 +37,7 @@
   </url>
   
   <url>
-    <loc>http://hiproxy.org/2014-07-13-test/</loc>
-    
-    <lastmod>2017-09-15T13:21:42.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://hiproxy.org/api/events.html</loc>
-    
-    <lastmod>2017-09-15T13:21:42.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://hiproxy.org/api/index.html</loc>
-    
-    <lastmod>2017-09-15T13:21:42.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://hiproxy.org/configuration/find_conf.html</loc>
-    
-    <lastmod>2017-09-15T13:21:42.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://hiproxy.org/configuration/hosts.html</loc>
     
     <lastmod>2017-09-15T13:21:42.000Z</lastmod>
     
@@ -121,14 +121,14 @@
   </url>
   
   <url>
-    <loc>http://hiproxy.org/get_started/index.html</loc>
+    <loc>http://hiproxy.org/get_started/installation.html</loc>
     
     <lastmod>2017-09-15T13:21:42.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://hiproxy.org/get_started/installation.html</loc>
+    <loc>http://hiproxy.org/get_started/index.html</loc>
     
     <lastmod>2017-09-15T13:21:42.000Z</lastmod>
     
@@ -163,21 +163,14 @@
   </url>
   
   <url>
-    <loc>http://hiproxy.org/index.html</loc>
+    <loc>http://hiproxy.org/api/events.html</loc>
     
     <lastmod>2017-09-15T13:21:42.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://hiproxy.org/zh-cn/index.html</loc>
-    
-    <lastmod>2017-09-15T13:21:42.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://hiproxy.org/zh-cn/api/index.html</loc>
+    <loc>http://hiproxy.org/2014-07-13-test/</loc>
     
     <lastmod>2017-09-15T13:21:42.000Z</lastmod>
     
@@ -191,7 +184,14 @@
   </url>
   
   <url>
-    <loc>http://hiproxy.org/zh-cn/configuration/find_conf.html</loc>
+    <loc>http://hiproxy.org/zh-cn/api/index.html</loc>
+    
+    <lastmod>2017-09-15T13:21:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://hiproxy.org/configuration/hosts.html</loc>
     
     <lastmod>2017-09-15T13:21:42.000Z</lastmod>
     
