@@ -177,14 +177,14 @@
   </url>
   
   <url>
-    <loc>http://hiproxy.org/zh-cn/api/events.html</loc>
+    <loc>http://hiproxy.org/zh-cn/api/index.html</loc>
     
     <lastmod>2017-09-15T13:21:42.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://hiproxy.org/zh-cn/api/index.html</loc>
+    <loc>http://hiproxy.org/zh-cn/api/events.html</loc>
     
     <lastmod>2017-09-15T13:21:42.000Z</lastmod>
     
@@ -205,14 +205,14 @@
   </url>
   
   <url>
-    <loc>http://hiproxy.org/zh-cn/configuration/rewrite.html</loc>
+    <loc>http://hiproxy.org/zh-cn/configuration/index.html</loc>
     
     <lastmod>2017-09-15T13:21:42.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://hiproxy.org/zh-cn/developers/cli_command.html</loc>
+    <loc>http://hiproxy.org/zh-cn/configuration/rewrite.html</loc>
     
     <lastmod>2017-09-15T13:21:42.000Z</lastmod>
     
@@ -226,14 +226,7 @@
   </url>
   
   <url>
-    <loc>http://hiproxy.org/zh-cn/configuration/index.html</loc>
-    
-    <lastmod>2017-09-15T13:21:42.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://hiproxy.org/zh-cn/developers/index.html</loc>
+    <loc>http://hiproxy.org/zh-cn/developers/cli_command.html</loc>
     
     <lastmod>2017-09-15T13:21:42.000Z</lastmod>
     
@@ -241,6 +234,13 @@
   
   <url>
     <loc>http://hiproxy.org/zh-cn/developers/directive.html</loc>
+    
+    <lastmod>2017-09-15T13:21:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://hiproxy.org/zh-cn/developers/index.html</loc>
     
     <lastmod>2017-09-15T13:21:42.000Z</lastmod>
     
@@ -282,14 +282,14 @@
   </url>
   
   <url>
-    <loc>http://hiproxy.org/zh-cn/get_started/installation.html</loc>
+    <loc>http://hiproxy.org/zh-cn/get_started/index.html</loc>
     
     <lastmod>2017-09-15T13:21:42.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://hiproxy.org/zh-cn/get_started/index.html</loc>
+    <loc>http://hiproxy.org/zh-cn/get_started/installation.html</loc>
     
     <lastmod>2017-09-15T13:21:42.000Z</lastmod>
     
@@ -317,14 +317,14 @@
   </url>
   
   <url>
-    <loc>http://hiproxy.org/zh-cn/rewrite/scope.html</loc>
+    <loc>http://hiproxy.org/zh-cn/rewrite/index.html</loc>
     
     <lastmod>2017-09-15T13:21:42.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://hiproxy.org/zh-cn/rewrite/index.html</loc>
+    <loc>http://hiproxy.org/zh-cn/rewrite/scope.html</loc>
     
     <lastmod>2017-09-15T13:21:42.000Z</lastmod>
     
